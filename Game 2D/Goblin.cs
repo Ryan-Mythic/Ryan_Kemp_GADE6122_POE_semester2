@@ -23,7 +23,7 @@ namespace Task_1
             {
                 
                 case 0:
-                    return MovementDirection.up;
+                    return MovementDirection.up;                    //Get goblin to move randomly
                 case 1:
                     return MovementDirection.down;
                 case 2:

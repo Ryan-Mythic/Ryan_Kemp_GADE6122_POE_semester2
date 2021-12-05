@@ -92,7 +92,7 @@ namespace Task_1
                 map[enemies[i].getX, enemies[i].getY] = enemies[i];
             }
 
-            Addgold();
+            AddGold();
             for (int i = 0; i < items.Length; i++)
             {
                 map[items[i].getX, items[i].getY] = items[i];

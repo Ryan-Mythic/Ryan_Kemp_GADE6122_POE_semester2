@@ -38,7 +38,7 @@ namespace Task_1
             set { Purse = value; }
         }
 
-        public  Character(int x, int y, TileType tileType, char symbol, int hp,int maxhp, int damage,int purse): base(x, y, tileType, symbol)
+        public Character(int x, int y, TileType tileType, char symbol, int hp,int maxhp, int damage,int purse): base(x, y, tileType, symbol)
         {
             Symbol = symbol;
             HP = hp;
@@ -59,7 +59,7 @@ namespace Task_1
         //Q2.3 
         public virtual void attack(Character Target)
         {
-            if (checkRange(Target))
+            if(checkRange(Target))
             {
                 Target.HP -= Damage;                //Decreases health of target
             }
